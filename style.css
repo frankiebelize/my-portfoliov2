@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+:root{
+    --font-family: 'TikTok Sans', sans-serif;
+    --primary-bg-color:#fff ;
+    --secondary-bg-color: #d5fdf9;
+    --text-color:#000;
+    --primary-color:#00b8b8 ;
+}
+html {
+    font-size: 62.5%;
+    overflow: hidden;
+}
+
+body{
+    background-color: var(--primary-bg-color);
+    color: var(--text-color);
+}
+
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+/* Header Section */
+ .header {
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5%;
+    background: var(--primary-color);
+    backdrop-filter: blur(10px);
+    transition: all 0.5s ease;
+ }
+
+ .logo{
+    font-size: 3rem;
+    color: var(--primary-bg-color);
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+ }
+
+.logo:hover{
+    transform: scale(1.05);
+}
+
+.navbar a{
+    font-size: 1.9rem;
+    color: var(--primary-bg-color);
+    font-weight: 700;
+    margin-left: 4rem;
+    transition: 0.3s ease;
+}
+.navbar a:hover{
+    color: var(--text-color);
+}
+
+#menu-btn{
+    font-size: 3.5rem;
+    color: var(--primary-bg-color);
+    cursor: pointer;
+}
