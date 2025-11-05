@@ -172,3 +172,50 @@ span{
     box-shadow: 0 0 25px var(--primary-color);
     transform: translateY(-5px);
 }
+
+/* About Section */
+
+.about{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    background-color: var(--secondary-bg-color);
+}
+
+.about-img img{
+    width: 28vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px var(--primary-color);
+    cursor: pointer;
+    animation: floatImage 4s ease-in-out infinite;
+    transition: 0.4s ease;
+}
+
+.about-img img:hover{
+    box-shadow: 0 0 25px var(--primary-color),0 0 35 px var(--primary-color), 0 0 45px var(--primary-color);
+}
+
+.heading{
+    text-align: left;
+    font-size: 6rem;
+}
+
+.about-content{
+    padding: 0 4rem;
+}
+
+.about-content h2{
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content h3{
+    font-size: 3rem;
+}
+
+.about-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+    line-height: 1.6;
+}
